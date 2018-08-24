@@ -16,9 +16,31 @@ body {
      padding: 20px;
 }
 
+.project{
+	margin-left: 20px;
+}
+
 .jumbotron-container {
 	position: relative;
      margin-top: 50px;
      margin-bottom: 20px;
      padding: 20px;
+}
+
+p{
+	font-family: Shree Devanagari 714;
+}
+
+.header {
+	font-family: Helvetica;
+	font-size: 90px;
+}
+
+h1{
+	color: blue;
+}
+
+#about{
+	font-family: Shree Devanagari 714;
+	font-size: 20px;
 }
