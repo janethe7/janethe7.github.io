@@ -1,0 +1,62 @@
+/* applies to anything of class "example-class-selector" */
+.example-class-selector {
+	margin-top: 2em;
+}
+
+/* applies to any <p> descendants of an element of class "example-class-selector" */
+.example-class-selector p {
+	/* Colors are in hexadecimal: http://www.colorpicker.com/ */
+	color: #CC00AA;
+}
+
+/* this style exists to make it obvious that you've successfully linked
+   the CSS to the page. feel free to remove it once the link is working. */
+body {
+     border: 1px dotted gray;
+     padding: 20px;
+}
+
+
+.project{
+	font-family: Georgia;
+	margin-left: 20px;
+	font-size: 20px;
+	background-color: #ffefd5;
+	border-radius: 15px 15px 15px 15px;
+	padding-top: 5px;
+}
+
+.jumbotron-container {
+	position: relative;
+     margin-top: 50px;
+     margin-bottom: 20px;
+     padding: 20px;
+}
+
+#profile{
+	border: white;
+}
+
+#profile img {
+	height: 300px;
+}
+
+.header1 {
+	font-family: Georgia;
+	font-size: 90px;
+}
+
+.header2 {
+	font-family: Georgia;
+	font-size: 30px;
+	color: orange;
+}
+
+h1{
+	color: green;
+}
+
+#about{
+	font-family: Shree Devanagari 714;
+	font-size: 20px;
+}
