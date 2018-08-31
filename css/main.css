@@ -52,7 +52,9 @@ h1{
 	color: Green;
 }
 
-#about{
+#about p{
+	margin-left: auto;
+	margin-right: auto;
 	width: 500px;
 	text-align: center;
 }
@@ -61,11 +63,11 @@ h1{
 	font-family: Georgia;
 	font-size: 30px;
 	color: orange;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	justify-content: center;
 }
-
-/*.header1 h1{
-	margin-top: 10px;
-}*/
 
 p{
 	font-family: Shree Devanagari 714;
