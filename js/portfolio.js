@@ -10,7 +10,6 @@ $(document).ready(function()) {
  */
 function initializePage() {
 	// add any functionality and listeners you want here
-	console.log("Javascript is connected!");
 	$(".img-thumbnail").click(projectClick);
 }
 
@@ -25,5 +24,4 @@ $(".img-thumbnail").click(projectClick);
 function projectClick(e){
 	e.preventDefault();
 	$(this).css("background-color", "#000000")
-	console.log("It worked!")
 }
